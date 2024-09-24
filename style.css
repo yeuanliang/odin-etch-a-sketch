@@ -1,0 +1,25 @@
+body {
+    width: 100vw;
+    height: 100vh;
+}
+button {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.container {
+    width: 960px;
+    height: 960px;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: start;
+}
+
+.container div {
+    width: 14px;
+    height: 14px;
+    border: #888 1px solid;
+}
+
+.container div:hover {
+    background-color: red;
+}
