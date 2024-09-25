@@ -7,19 +7,10 @@ button {
     margin-bottom: 20px;
 }
 .container {
+    background-color: #929697;
     width: 960px;
     height: 960px;
     display: flex;
     flex-wrap: wrap;
     align-content: start;
-}
-
-.container div {
-    width: 14px;
-    height: 14px;
-    border: #888 1px solid;
-}
-
-.container div:hover {
-    background-color: red;
 }
