@@ -7,7 +7,14 @@
     <title>Etch a Sketch</title>
 </head>
 <body>
-    <div><button onclick="generateSquares()">Click to Generate a New Sketch Pad</button></div>
+    <div>
+        <button onclick="newGrid()">New</button>
+        <button onclick="reset()">Reset</button>
+        <button onclick="eraseCell()">Erase</button>
+        <button onclick="setColor('black')">Black</button>
+        <button onclick="setRandom()">Random Color</button>
+        <button onclick="setShade()">Shade</button>
+    </div>
     <div class="container">
     </div>
     <script src='etch-a-sketch.js'></script>
